@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en" ng-app="OWMApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Open Weather Map App</title>
+</head>
+<body>
+    <a href="#/cities/New%20York">New York</a>
+    <a href="#/cities/Dallas">Dallas</a>
+    <a href="#/cities/Chicago">Chicago</a>
+    <a href="#/cities/NotOnList">Unsupported city</a>
+    
+    <div ng-view></div>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular-route.js"></script>
+  <script src="./owm-app.js"></script>
+</body>
+</html>
